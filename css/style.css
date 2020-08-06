@@ -1,0 +1,608 @@
+* strat main rulez */
+
+body{background-color: #fff;
+height: 4000px}
+
+.container{
+    width: 1170px;
+    margin: auto;
+    
+}
+
+.clearfix{clear: both}
+
+/* end  main rulez */
+
+
+/* start header */
+
+.header .slider{
+    
+    height: 600px;
+    background-color:#EEE;
+        background-image: url('ahmed111.webp');
+    background-size:cover;
+
+    
+}
+.header .slider .intro{
+    padding-top:100px ;
+    color: #fff;    
+    text-align: center;
+
+    
+}
+
+
+.header .slider .intro h2 {
+    
+    margin: 0 auto;
+    font-size:30px;
+    border-top:3px solid #fff;
+    border-bottom:3px solid #fff;
+    width: 300px;
+    padding: 5px 0;
+
+    
+    
+}
+.header .slider .intro button {
+    color: #fff;
+    width: 140px;
+    margin-top: 30px;
+    font-size: 20px;
+    border: 3px solid #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: none
+
+
+
+    
+    
+}
+
+.header .navbar{
+    
+    background-color: #252f31;
+    color: #fff;
+    overflow: hidden;
+    
+}
+
+.header .navbar h2{float: left;
+text-transform: uppercase;
+}
+.header .navbar h2 span{color:#24AD65;
+}
+
+.header .navbar ul{
+    
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right;
+    
+
+}
+
+.header .navbar ul li{
+    
+    float: left;
+    padding: 10px;
+}
+.header .navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+.header .navbar ul li.activ a,
+
+.header .navbar ul li a:hover
+    {color: aquamarine}
+
+
+/* end header */ 
+
+
+
+
+/* start features */
+
+.features{
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.features .feet{
+    float: left;
+    height:150px;
+    background-color:#ddd;  /* for layout */
+width: 33%;
+}
+
+.features .feet h2{text-transform:lowercase;color:#555}
+.features .feet p{line-height: 1.5;color: #888;text-align-}
+
+/* end features */
+
+
+
+/* start aboutme */
+
+.aboutme{
+    
+    background-color: #F2F2F2;
+    overflow: hidden
+}
+
+.aboutme .image{
+    float: left;
+    width: 40%;
+    height: 200px;
+    margin-top: 40px
+}
+
+.aboutme .image img{width: 100%;height: auto}
+
+.aboutme .info{
+    float: left;
+    width: 60%
+}
+.aboutme .info h2{
+    margin: 40px 0px 20px 40px;
+    color: #555
+}
+.aboutme .info > p{
+    margin: 0px 0 20px 40px;
+    color:#666
+}
+.aboutme .info >p:last-of-type{
+    margin-top: 30px;
+    color:#666
+}
+.aboutme .info  p{
+    line-height: 1.3;
+    color:#666
+}
+.aboutme .info .hobbies{
+    overflow: hidden;
+    margin: 5px 0px 0 40px
+        ;
+  
+}
+
+
+.aboutme .info .hobbies .containt  {
+    
+      float: left;
+      width: 50%;
+     min-height: 50px;
+    overflow: hidden
+}
+.aboutme .info .hobbies .containt .icon {
+    
+    
+    width: 12%;
+    float: left
+  
+}
+.aboutme .info .hobbies .containt .icon  img{
+    max-width:100%;
+    margin: 60px 30px 0 0
+    
+    
+    
+}
+.aboutme .info .hobbies .containt .text {
+    
+      float: left;
+    width: 83%;
+    margin: 0
+   
+        
+   
+}
+.aboutme .info .hobbies .containt .text  p{
+    margin: 2px 0 0px 2px
+        
+   
+}
+.aboutme .info .hobbies .containt .text  h2{margin-left: 0;
+    margin-bottom: 0;
+    text-align: left}
+    
+        
+   
+
+
+/* end aboutme */
+
+
+/* start my skills */ 
+.myskills{
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.myskills .skills h2{
+    
+    color: rebeccapurple
+}
+.myskills .skills p{
+    
+margin: 25px 0 20px 40px;
+overflow: hidden;
+line-height: 1.7}
+.myskills .skills p:last-of-type{
+    
+margin-top: 25px}
+
+
+     
+.myskills  .skills ,.myskills  .progress
+    {
+    
+    width: 50%;
+    float: left;
+    
+    
+ }
+.myskills  .skills button {
+    
+    
+  
+    margin-left: 40px;
+    
+}
+.myskills .progress .techniqe {
+    margin-left:40px
+}
+.myskills .progress .techniqe h3{
+    
+}
+.myskills .progress .techniqe  div{
+  
+    background-color: silver;
+   
+    height: 25px
+    
+}
+.myskills .progress .techniqe  div span{
+  
+    background-color: #2dcc70;
+  
+    height: 25px;
+    display: block;
+    text-align: right;
+    color:royalblue;
+    font-weight: bold;
+    line-height: 25px
+    
+}
+
+
+/* end my skills */
+
+
+/* start resume */
+
+.resume{
+    background-color: #f2f2f2;
+text-align: center;
+    padding-top:50px;
+    padding-bottom: 70
+}
+.resume p{
+    line-height: 1.7;
+    font-style:italic
+}
+.resume button{
+    margin: 25px
+   
+}
+
+/* end resume */
+
+
+/* start myeducation */
+
+.myeducation{
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    
+    
+}
+.myeducation h2{
+    
+    color: rebeccapurple
+}
+.myeducation p{
+    
+margin: 25px 0 20px 40px;
+overflow: hidden;
+line-height: 1.7;
+color: darkgray}
+.myeducation p:last-of-type{
+    
+margin-top: 25px}
+
+
+.myeducation .education {
+    width: 50%;
+    margin-right: 5%;
+    float: left;
+    
+  }
+.myeducation .exp {
+    width: 45%;
+    float: left;
+    
+}
+.myeducation .exp hr {
+margin: 20px 0 0 0 ;
+    background-color:darkgray;height: 1px;
+    border: 1px
+}
+.myeducation .exp  span:first-of-type {
+   
+    
+}
+.myeducation .exp p {
+    padding: 30px;
+    float: left;
+    margin-left: 0;
+    padding-left: 0
+  }
+.experience hr {
+    margin: 20px 0 0 0 ;
+    background-color:darkgray;height: 1px;
+    border: 1px
+}
+
+  }
+
+/* end my education */
+
+
+/* start testimonials */
+.testmonials h2
+{
+   
+    text-align: center
+}
+
+.testmonials ul
+{
+    
+    
+    padding-left: 0;
+    text-align: center;
+ 
+}
+.testmonials ul li
+{
+    
+    width: 10px;
+    height: 10px;
+    border: 2px solid green;
+    display:inline-block;
+    text-align: center;
+    list-style-type:circle
+    
+}
+.testmonials ul li.active,.testmonials ul li:hover {background-color:green}
+
+
+
+/* end testimonials */
+
+
+
+/* start portofolio */
+
+.portofolio {
+    
+    
+    padding-bottom: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.portofolio .ourwork{
+    
+  overflow: hidden;  
+    
+  
+}
+
+.portofolio .ourwork > div {
+    float: left;    
+    width: 30.33333%;
+}
+
+.portofolio .ourwork > div img {
+    margin: 5px;   
+    width: 95%
+}
+
+
+
+/* end portofolio */
+
+
+/* starat contact me */
+
+
+.contact{
+    
+    
+    background-color: #252F31;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px
+        
+}
+.contact h2
+{
+    color: #fff;
+    
+        margin-left: 40px
+
+}
+.contact p{
+    color: #6A6E71m;
+    margin-left: 40px;
+    line-height: 1.7
+}
+.contact p strong{
+    color: #d1d6da;
+    padding-right:15px
+   
+}
+
+.contact .info{
+    width: 50%;
+    float: left;
+    padding-right: 5%
+    
+} 
+.contact .form{
+    
+    width: 45%;
+    float: left;
+    padding-top: 40px
+}
+.contact .form lable
+{
+display: block;
+    color: #d1d6da;
+    margin-bottom: 10px
+    
+}
+.contact .form input[type="text"]
+{
+background-color:#4b5557 ;
+    color: #fff;
+    padding: 10px;
+    border: 0;
+    width: 80%;
+  0   margin-bottom: 25px
+}
+.contact .form textarea
+{
+    background-color:#4b5557 ;
+    color: #fff;
+    border: 0;
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 25px;
+    height: 200px
+}
+.contact .form input[type="submit"]
+{
+    background-color: #191e22;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: 0
+}
+
+
+
+/* end contact */
+
+
+
+/* start footer */
+
+
+.footer{
+    background-color: #191E22;
+    color: #6A6E71 ;
+    padding: 20px 0;
+     text-align: center;
+}
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+    
+}
+.footer ul li {  
+    display:inline-block;
+    
+   
+        
+}
+.footer ul li img {
+    width: 25px;
+    height: 25px
+}
+
+ 
+    
+    
+
+
+
+/* end footer */
+/*start framework*/
+.my-button{
+    color:#2dcc70;
+    border: 3px solid #2dcc70;
+    
+    padding:  10px 30px;
+    background-color: none
+   
+}
+.gp{
+    border: 2px solid green;
+    background-color: #2dcc70;
+    color: aliceblue;
+    padding:5px 10px;
+    margin-top: 40px;
+    width: 40px;
+    margin-bottom: 20px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end contact me */
+Chat Conversation End
+Type a message...
